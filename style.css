@@ -1,0 +1,268 @@
+body {
+  background: #E7D19A;
+  margin: 0;
+  padding: 0px;
+  font: small Calibri, Arial, sans-serif;
+  text-align: center;
+  color: #333333;
+}
+/* Allow IE6 to view alpha channel on PNG images */
+img {
+  height: expression(
+    this.height_ ? 
+      this.height_ : 
+      (this.height_ = this.height));
+  width: expression(
+    this.width_ ? 
+      this.width_ : 
+      (this.width_ = this.width));
+  filter: expression(
+    "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + 
+    (this.src_ ?
+      this.src_ :
+      (this.src_ = this.src, 
+       this.src = '/images/css/spacer.gif',
+       this.src_)) + 
+    "',sizingMethod='image');");
+}
+
+a:link {
+  color: #336699;
+}
+a:visited {
+  color: #336699;
+}
+a img {
+  border-width: 0;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.bigicon {
+  float: left; margin: 0 10px;
+}
+
+button.installer {
+  vertical-align: middle;
+  font-size: large;
+}
+
+.mainlink {
+  font-size: larger; font-weight: bold;
+}
+
+#outer-wrapper { 
+}
+
+#header-wrapper {
+  margin:0;
+  padding: 0;
+  background-color: #D0A760;
+  text-align: left;
+}
+
+#header {
+  width: 360px;
+  margin: 0 auto;
+  background-color: #990000;
+  border: 1px solid #D0A760;
+  color: #ffffff;
+  padding: 0;
+  font-size: 200%;
+}
+
+h1 {
+  padding: 0;
+  margin-top: 0;
+}
+
+h1.title {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: 0 14px .1em;
+  line-height: 1.2em;
+  font-size: 100%;
+}
+
+h1.title a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header .description {
+  display: none;
+  margin: 0 14px;
+  padding: 0 0 40px;
+  line-height: 1.4em;
+  font-size: 50%;
+}
+                                                              
+.clear { 
+  clear: both;
+}
+
+#content-wrapper {
+  background: #E7D19A url(//web.archive.org/web/20131018023401im_/http://crypto.stanford.edu/images/css/bg-gradient.gif) repeat-x left top;
+}
+
+#content {
+  width: 360px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #D0A760;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#main-wrapper {
+  margin: 7px;
+  float: left;
+  width: 290px;
+  background-color: #ffffff;
+  display: inline;       /* fix for doubling margin in IE */
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+//  overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+
+.full #main-wrapper {
+  width: 90%;
+}
+
+#sidebar-wrapper {
+  width: 250px;
+  float: right;
+  background-color: #ffffff;
+  display: inline;       /* fix for doubling margin in IE */
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+  border: 1px solid #D0A760;
+  border-right: 0;
+  border-top: 0;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  margin: 0;
+}
+
+.main ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main li {
+  padding: 0;
+  margin: 1em 0;
+}
+
+.publications li {
+  margin: 0;
+}
+
+ul.publications {
+  margin-bottom: 1em; 
+}
+
+.mainlogo {
+  text-align: center;
+}
+
+.logo {
+  float: right;
+  position: relative;
+  top: -70px;
+  margin-bottom: -132px;
+}
+
+.full .logo {
+  margin-bottom: 0px;  
+}
+
+.overview .title {
+  padding-top: 15px;
+}
+
+.sidebar h2 {
+  margin: 0;
+  padding: 4px 5px;
+  background-color: #E7D19A;
+  font-size: 100%;
+  color: #333333;
+}
+.sidebar h3 {
+  font-size: 100%;
+  color: #333333;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar li {
+  margin: 0;
+  padding: 0;
+}
+.sidebar dd {
+  margin-left: 10px;
+}
+.sidebar blockquote {
+  margin: 7px;
+}
+.sidebar {
+  color: #333333;
+  line-height:1.3em; 
+}
+.sidebar .widget { 
+}
+
+.sidebar .widget-content { 
+  margin: 5px ;
+}
+
+.project .widget {
+  margin: 5px;
+}
+
+.project .widget .widget-content {
+  margin-left: 10px;
+}
+
+.linkback {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+/* Footer ----------------------------------------------- */
+#footer {
+  clear: both;
+  text-align: center;
+  color: #333333;
+}
+
+#footer .widget {
+  margin: 0.5em;
+  padding-top: 20px;
+  font-size: 85%;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+
+/*
+     FILE ARCHIVED ON 02:34:01 Oct 18, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:08:57 Aug 09, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
